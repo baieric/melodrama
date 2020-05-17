@@ -177,6 +177,9 @@ a:focus {
   outline: none;
   color: #fff;
 }
+.copyright-row {
+  padding: 30px 0;
+}
 .social {
   display: inline-block;
   margin: 10px 2px;
