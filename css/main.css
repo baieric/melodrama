@@ -17,9 +17,6 @@ body p {
 .row {
   padding: 30px 0;
 }
-h1 {
-  font-size: 50px;
-}
 .section {
   padding: 90px 0;
 }
@@ -57,9 +54,15 @@ h1 {
   .hero-area {
     padding: 200px 0;
   }
-  .hero-area h1 {
-    font-size: 50px !important;
+  .row {
+    display: flex;
   }
+}
+
+.justifyChildren {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #green-light {
