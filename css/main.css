@@ -58,11 +58,31 @@ body p {
     display: flex;
   }
 }
+.flower {
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .flower {
+    max-height: 140px;
+  }
+}
+@media (min-width: 768px) {
+  .flower {
+    max-height: 100%;
+
+  }
+}
 
 .justifyChildren {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.justifyChildrenEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 #green-light {
@@ -154,7 +174,7 @@ body p {
 }
 
 #copyright {
-  background: #141414;
+  background: #000;
   text-align: center;
 }
 #copyright .copyright-text {
@@ -168,7 +188,7 @@ body p {
   -moz-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
-  color: #4babd1;
+  color: #e03430;
 }
 
 #copyright .copyright-text a:hover,
