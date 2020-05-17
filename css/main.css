@@ -1,0 +1,216 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:700,400,100);
+body {
+  font-family: 'serif-regular',serif;
+  color: #666;
+  font-size: 20px;
+  font-weight: 400;
+  background: #fff;
+}
+
+body p {
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+.row {
+  padding: 30px 0;
+}
+h1 {
+  font-size: 50px;
+}
+.section {
+  padding: 90px 0;
+}
+.content-wrap {
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+.show-menu .content-wrap {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transform: translate3d(-250px, 0, 0);
+  transform: translate3d(-250px, 0, 0);
+}
+.affix {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  padding: 0!important;
+  background: #009688 !important;
+}
+.hero-area {
+  background: #141414;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+  overflow: hidden;
+  padding: 90px 0;
+}
+@media (min-width: 1200px) {
+  .hero-area {
+    padding: 200px 0;
+  }
+  .hero-area h1 {
+    font-size: 50px !important;
+  }
+}
+
+#green-light {
+  background: #d1dad7;
+}
+#green-light p {
+  color: #1e2723;
+}
+
+#sober {
+  background: #25211c;
+}
+#sober p {
+  color: #b5b6af;
+}
+
+#homemade-dynamite {
+    background: #0c0c0e;
+}
+#homemade-dynamite p {
+  color: #afb0af;
+}
+
+#the-louvre {
+    background: #184a4d;
+}
+#the-louvre p {
+  color: #a0ccdb;
+}
+
+#liability {
+    background: #050706;
+}
+#liability p {
+  color: #a5a6aa;
+}
+#liability .faded {
+  color: #353730;
+}
+
+#hard-feelings {
+  background: #090b0a;
+}
+#hard-feelings p {
+  color: #adafaa;
+}
+
+#loveless {
+  background: #baa262;
+}
+#loveless p {
+  color: #fff;
+  opacity: 0.4;
+}
+
+#sober2 {
+  background: #172d31;
+}
+#sober2 p {
+  color: #b3c6c5;
+}
+
+#writer-in-the-dark {
+  background: #cad8d5;
+}
+#writer-in-the-dark p {
+  color: #3c4440;
+}
+
+#supercut {
+  background: #070707;
+}
+#supercut p {
+  color: #b3bab5;
+}
+
+#liability-reprise {
+  background: #d8735b;
+}
+#liability-reprise p {
+  color: #521710;
+}
+
+#perfect-places {
+  background: #010302;
+}
+#perfect-places {
+  color: #bfd6d9;
+}
+
+#copyright {
+  background: #141414;
+  text-align: center;
+}
+#copyright .copyright-text {
+  color: #fff;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+#copyright .copyright-text a {
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  color: #4babd1;
+}
+
+#copyright .copyright-text a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+}
+.social {
+  display: inline-block;
+  margin: 10px 2px;
+  color: #fff;
+}
+.social i {
+  width: 48px;
+  font-size: 16px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.18);
+  text-align: center;
+  line-height: 48px;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social i:hover {
+  color: #fff;
+}
+.social .fa-github:hover {
+  background: #6e5494;
+}
+.social .fa-twitter:hover {
+  background: #00ACED;
+}
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 9999999999;
+}
+.loader-inner {
+  position: animation;
+  top: 50%;
+  left: 50%;
+}
