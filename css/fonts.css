@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Canela';
+  src: url(../fonts/Canela-Regular.otf) format('otf'),;
+}
+@font-face {
+  font-family: 'Canela';
+  font-style: italic;
+  src: url(../fonts/Canela-RegularItalic.otf) format('otf'),;
+}
