@@ -135,6 +135,7 @@ a:focus {
 
 #green-light {
   background: #d1dad7;
+  background-image: url(../img/natural-paper.png);
 }
 #green-light p {
   color: #1e2723;
@@ -148,7 +149,8 @@ a:focus {
 }
 
 #homemade-dynamite {
-    background: #0c0c0e;
+  background: #0c0c0e;
+  background-image: url(../img/black-paper.png);
 }
 #homemade-dynamite p {
   color: #afb0af;
@@ -173,6 +175,7 @@ a:focus {
 
 #hard-feelings {
   background: #090b0a;
+  background-image: url(../img/black-paper.png);
 }
 #hard-feelings p {
   color: #adafaa;
@@ -195,6 +198,7 @@ a:focus {
 
 #writer-in-the-dark {
   background: #cad8d5;
+  background-image: url(../img/natural-paper.png);
 }
 #writer-in-the-dark p {
   color: #3c4440;
@@ -202,6 +206,7 @@ a:focus {
 
 #supercut {
   background: #070707;
+  background-image: url(../img/black-paper.png);
 }
 #supercut p {
   color: #b3bab5;
@@ -215,7 +220,7 @@ a:focus {
 }
 
 #perfect-places {
-  background: #010302;
+  background: #192318;
 }
 #perfect-places p {
   color: #bfd6d9;
