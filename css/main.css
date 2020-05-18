@@ -11,6 +11,10 @@ body p {
   margin: 0;
 }
 
+img {
+  user-select: none;
+}
+
 .clear {
   clear: both;
 }
@@ -73,7 +77,7 @@ a:focus {
 }
 @media (min-width: 1200px) {
   .hero-area {
-    padding: 200px 0;
+    padding: 150px 0;
   }
   .row {
     display: flex;
@@ -85,6 +89,7 @@ a:focus {
 @media (max-width: 768px) {
   .flower {
     max-height: 140px;
+    margin: 50px 0px;
   }
 }
 @media (min-width: 768px) {
@@ -195,6 +200,7 @@ a:focus {
 }
 
 #credits {
+  font-family: 'sans-serif-regular', sans-serif;
   background: #000;
   text-align: center;
 }
