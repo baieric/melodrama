@@ -1,4 +1,23 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:700,400,100);
+@font-face {
+  font-family: 'Canela';
+  src: url(../fonts/Canela-Regular.eot);
+  src: url(../fonts/Canela-Regular.woff) format('woff'),
+       url(../fonts/Canela-Regular.woff2) format('woff2'),
+       url(../fonts/Canela-Regular.ttf) format('truetype'),
+       url(../fonts/Canela-Regular.svg#Canela-Regular) format('svg'),
+       url(../fonts/Canela-Regular.eot?#iefix) format('embedded-opentype');
+}
+@font-face {
+  font-family: 'Canela';
+  font-style: italic;
+  src: url(../fonts/Canela-RegularItalic.eot);
+  src: url(../fonts/Canela-RegularItalic.woff) format('woff'),
+       url(../fonts/Canela-RegularItalic.woff2) format('woff2'),
+       url(../fonts/Canela-RegularItalic.ttf) format('truetype'),
+       url(../fonts/Canela-RegularItalic.svg#Canela-RegularItalic) format('svg'),
+       url(../fonts/Canela-RegularItalic.eot?#iefix) format('embedded-opentype');
+}
+
 body {
   font-family: 'Canela', 'serif-regular',serif;
   color: #666;
