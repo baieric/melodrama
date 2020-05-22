@@ -91,7 +91,7 @@ img {
   padding: 0!important;
   background: #009688 !important;
 }
-.hero-area {
+#home {
   background: #141414;
   background-size: cover;
   background-position: center bottom;
@@ -100,12 +100,12 @@ img {
   font-size: 24px;
   padding: 90px 0;
 }
-.hero-area p {
+#home p {
   color: #bfd6d9;
   margin-top: 50px;
   text-align: center;
 }
-.hero-area a {
+#home a {
   transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -113,7 +113,7 @@ img {
   color: #0754c8;
 }
 
-.hero-area a:hover,
+#home a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
